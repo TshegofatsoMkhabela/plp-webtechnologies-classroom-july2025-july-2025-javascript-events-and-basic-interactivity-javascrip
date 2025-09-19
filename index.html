@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Interactive Web Page Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>My Interactive Web Page</h1>
+
+    <!-- Part 1: Event Handling Example -->
+    <h2>Part 1: Toggle Message</h2>
+    <button id="toggleMsgBtn">Toggle Message</button>
+    <p id="message" style="display: none">
+      Hello! You just triggered an event!
+    </p>
+
+    <!-- Part 2: Interactive Elements -->
+    <h2>Part 2: Interactive Features</h2>
+    <button id="themeToggle">Toggle Dark Mode</button>
+
+    <div class="counter-box">
+      <button id="decrement">➖</button>
+      <span id="count">0</span>
+      <button id="increment">➕</button>
+    </div>
+
+    <!-- Part 3: Form Validation -->
+    <h2>Part 3: Form Validation</h2>
+    <form id="signupForm">
+      <label>Name: <input type="text" id="name" /></label>
+      <span class="error" id="nameError"></span><br />
+
+      <label>Email: <input type="text" id="email" /></label>
+      <span class="error" id="emailError"></span><br />
+
+      <label>Password: <input type="password" id="password" /></label>
+      <span class="error" id="passwordError"></span><br />
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="successMsg"></p>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
